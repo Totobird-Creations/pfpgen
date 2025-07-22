@@ -1,0 +1,19 @@
+[package]
+name = "pfpgen"
+version = "0.1.0"
+edition = "2024"
+
+[lints.rust]
+unused_parens = "allow"
+
+
+[dependencies.float-cmp]
+version = "0.10"
+
+[dependencies.rand]
+version = "0.9"
+[dependencies.rand_chacha]
+version = "0.9"
+
+[dependencies.image]
+version = "0.25"
